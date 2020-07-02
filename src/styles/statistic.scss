@@ -1,0 +1,126 @@
+@import '@/styles/static.scss';
+.query{
+    width: 220px;
+    height: 439px;
+    &{
+        position: $posRule0;
+        .query-wrap{
+            position: $posRule1;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+    }
+    &.pos{
+        left:24px;
+        top: 150px;
+        .s-container{
+            background-color: transparent;
+            display: table;
+            height: $wWhole;
+            width: $wWhole;
+            .p{
+                background-color: #7A888B;
+                border-radius:4px;
+                opacity:0.59;
+                position: $posRule2;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+            }
+            .s-head{
+                position: $posRule1;
+                width: $wWhole;
+                height: 45px !important;
+                padding: 0;
+                .s-empty{
+                    background-color: #B8C6C7;
+                    border-radius:4px;
+                    opacity:0.6;
+                    position: $posRule2;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    top: 0;
+                    height: 45px !important;
+                    line-height: 45px;
+                }
+                .s-content-h{
+                    position: $posRule1;
+                    height: $wWhole;
+                    line-height: 45px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                        display: inline-block;
+                        position: $posRule2;
+                        left: 14px;
+                        top: 10px;
+                    }
+                    .s-title-z{
+                        font-size: 21px;
+                        color: #fff;
+                    }
+                }
+            }
+            .s-main{
+                position: $posRule1;
+                padding: 0 !important;
+                overflow: hidden !important;
+                .s-stastic{
+                    text-align: left;
+                    color: #fff;
+                    text-indent: 13px;
+                    padding-top: 16px;
+                    & ul{
+                        padding-top: 16px;
+                    }
+                    & ul li{
+                        font-size: 14px;
+                        text-indent: 26px;
+                        height: 26px;
+                        line-height: 26px;
+                        width: 190px;
+                        display: block;
+                        margin: 0 auto;
+                        border-bottom: 1px solid #B6C7C9;
+                        cursor: pointer;
+                    }
+                    & ul li:last-child{
+                        border-bottom:none
+                    }
+                    & ul li.selected{
+                        background-color: #0090C7;
+                        border-bottom: 1px solid transparent;
+                        border-radius: 4px;
+                    }
+                }
+                .s-main-wrap{
+                    padding-top: 10px;
+                    .d-p:last-child{
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.el-input__suffix{
+    display: none !important;
+}
+.el-icon-circle-close,.el-input__icon{
+    display: none !important;
+}
+.el-date-editor.el-input{
+    width: 154px !important;
+}
+.el-input__inner{
+    position: relative;
+    height: 26px !important;
+    line-height: 26px !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+

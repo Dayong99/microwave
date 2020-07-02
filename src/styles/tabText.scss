@@ -1,0 +1,25 @@
+.txt-tab{
+    display: inline-block;
+    width: 42px;
+    height: 20px;
+    line-height: 17px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 0;
+    text-indent: 0;
+}
+.txt-tab.active{
+    color: rgba(0,240,255,0.6);
+    background-color: #fff;
+}
+.txt-tab2{
+    margin-right: 10px;
+}
+.txt{
+    display: inline-block;
+    width: 66px;
+    height: 20px;
+    line-height: 17px;
+}

@@ -1,0 +1,99 @@
+ /*数值模式*/
+ .dta{
+    width: 305px;
+    min-height: 32px;
+    position: fixed;
+    position: fixed;
+    left: 146px;
+}
+.dta-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+}
+.dta-wrap-pane,.dta-title-pane{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #7A888B;
+    opacity: 0.3;
+    border-radius: 3px;
+}
+.dta-wrap-pane-wrap{
+    position: relative;
+}
+.dta-title{
+    position: relative;
+    width: 100%;
+    height: 32px;
+        line-height: 32px;
+text-align: left;
+}
+.dta-title span{
+    color: #fff;
+}
+.d-b{
+    display: inline-block;
+    width: 0;
+    height: 18px;
+    border-right: 2px solid #fff;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin: 0 10px;
+}
+.d-text{
+        line-height: 32px;
+    color: #fff;
+    width: 66%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.dta-item{
+    color: #fff;
+    font-size: 14px;
+}
+.dta-item-a{
+    width: 33%;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    text-align: center;
+}
+.dta-item-a.active{
+    background: #0090C7;
+    border-radius: 5px;
+}
+.dta-item-wrap{
+    display: block;
+    box-sizing: border-box;
+    padding: 6px 0;
+}
+.data-squre{
+    width: 12.5%;
+    height: 26px;
+    float: left;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.data-squre.active{
+    background: #0090C7;
+}
+.dta-s1{
+    width: 92%;
+    margin: 0 auto;
+}
+.aside div{
+    line-height: 30px;
+}
+.aside{
+    width: 80px;
+}
+.data-squre.db{
+        background: transparent;
+border-bottom: 0;
+line-height: 30px;
+    border-right: 0;
+}
